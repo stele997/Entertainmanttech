@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tech Entertainment | Najpovoljnije cene laptopova</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Veliki izbor laptopova po najovoljnijim cenama"/>
+		<meta name="keywords" content="Tech, Entertainment, laptopovi, veliki, izbor"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="shortcut icon" href="images/logo.ico"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png" alt="PC"/></a>
+				</div>
+				<div id="title">
+					<h1>Tech Entertainment</h1>
+					<h2>Veliki izbor uredjaja po najpovoljnijim cenama</h2>
+				</div>
+			</div>
+		<div class="cleaner">
+		</div>
+			<div id="navigation">
+				<ul id="menu">
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="#" class="aktivan">Proizvodi</a>
+						<ul>
+							<li><a href="telefoni.html" >Telefoni</a></li>
+							<li><a href="laptop.html">Laptopovi</a></li>
+						</ul>
+					</li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><a href="autor.html">Autor</a></li>
+				</ul>
+			</div>
+			<div class="cleaner">
+			</div>
+			<div id="sortbox">
+				<h3>Filteri za sortiranje:</h3>
+				
+				<table>
+					<tr>
+						<td>
+							<p>Sortiraj po:</p>
+						</td>
+						<td>
+							<select id="sortiranje">
+								<option value="0"> Izaberite... </option>
+								<option value="1"> Ceni rastuće</option>
+								<option value="2"> Ceni opadajuće</option>
+								<option value="3"> Nazivu A-Z</option>
+								<option value="4"> Nazivu Z-A</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Cena od:</p>
+						</td>
+						<td>
+							<input type="text" id="cenaOd" placeholder="cena"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Cena do:</p>
+						</td>
+						<td>
+							<input type="text" id="cenaDo" placeholder="cena"/>
+						</td>
+					</tr>
+					<tr>
+					<td>
+					</td>
+					</tr>
+				</table>
+					<input type="button" id="potvrdiFilter" value="Potvrdi"/>
+			</div>
+			<div id="kontejner">
+				
+			</div>
+			</div>
+			<div class="cleaner">
+			</div>
+			<div id="footer">
+			<ul id="menuFooter">
+				<li><a href="index.html">Početna</a></li>
+				<li><a href="telefoni.html">Telefoni</a></li>
+				<li><a href="laptop.html">Laptopovi</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="autor.html">Autor</a></li>
+			</ul>
+			<p>&copy; Sajt je pravljen kao školski projekat, slike su skidane sa "google photos" i neće biti korišćene u komercijalne svrhe već samo za ilustraciju jednog sajta koji se bavi prodajom, informacije o cenama i karakteristikama uredjaja kao i imena artikala su izmisljene delimično ili potpuno! </br>
+			&copy; The website was made as a school project, photos were taken from "Google photos" and they won't be used as commercial uses but as the illustration for the website for webstore. The pieces of information about prices, devices sprecifications and device names are not valid! </p>
+			
+		</div>
+		<script type="text/javascript" src="js/laptop.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

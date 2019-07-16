@@ -1,0 +1,173 @@
+[
+{
+	"slika":{
+		"src":"images/laptop/acer.jpg",
+		"alt":"acer"},
+	"ime":"Acer A",
+	"cena":430,
+	"brojProdatih":15,
+	"cpu":"Intel Core i5-7200U",
+	"gpu":"Intel HD Graphics 620",
+	"display":"15.6”, HD (1366 x 768), TN",
+	"storage":"1000GB HDD",
+	"ram":"6GB DDR4",
+	"weight":"2.10 kg (4.6 lbs)",
+	"os":"Windows 10 Home",
+	"battery":"4810 mAh, 2-cell",
+	"dimensions":"382 x 259 x 22 mm"
+	
+},
+{
+	"slika":{
+			"src":"images/laptop/acer2.jpg",
+			"alt":"acer"},
+	"ime":"Acer rA",
+	"cena":440,
+	"brojProdatih":12,
+	"cpu":"Intel Pentium N4200",
+	"gpu":"Intel HD Graphics 505 (Apollo Lake)",
+	"display":"14.0”, HD (1366 x 768), TN",
+	"storage":"64GB SSD",
+	"ram":"4GB DDR3L",
+	"weight":"1.7 kg (3.7 lbs)",
+	"os":"Windows 10",
+	"battery":"4810mAh, 2-cell",
+	"dimensions":"343 x 245 x 18 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/dell.jpg",
+			"alt":"dell"},
+	"ime":"Dell",
+	"cena":280,
+	"brojProdatih":45,
+	"cpu":"Intel Core i3-7100U",
+	"gpu":"Intel HD Graphics 620",
+	"display":"15.6”, HD (1366 x 768), TN",
+	"storage":"1000GB HDD",
+	"ram":"8GB DDR4",
+	"weight":"2.25 kg (5 lbs)",
+	"os":"Windows 10 Home",
+	"battery":"40Wh, 4-cell",
+	"dimensions":"380 x 260 x 23.65 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/hp.jpg",
+			"alt":"hp"},
+	"ime":"HP 11-45a",
+	"cena":130,
+	"brojProdatih":49,
+	"cpu":"Intel Celeron N3060",
+	"gpu":"Intel HD Graphics 400 (Braswell)",
+	"display":"11.6”, HD (1366 x 768), IPS",
+	"storage":"16GB SSD",
+	"ram":"4GB",
+	"weight":"1.14 kg (2.5 lbs)",
+	"os":"Chrome OS",
+	"battery":"43.7Wh, Li-ion, 2-cell",
+	"dimensions":"286 x 205 x 18 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/hp1.jpg",
+			"alt":"hp"},
+	"ime":"HP 13-99H",
+	"cena":330,
+	"brojProdatih":51,
+	"cpu":"Intel Core i5-8250U",
+	"gpu":"Intel UHD Graphics 620",
+	"display":"15.6”, HD (1366 x 768), TN",
+	"storage":"2000GB HDD",
+	"ram":"12GB DDR4",
+	"weight":"2.1 kg (4.6 lbs)",
+	"os":"Windows 10 Home",
+	"battery":"31Wh, 3-cell",
+	"dimensions":"380 x 253 x 23.8 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/hp2.jpg",
+			"alt":"hp"},
+	"ime":"HP 421-a",
+	"cena":280,
+	"brojProdatih":32,
+	"cpu":"Intel Core i7-8550U",
+	"gpu":"Intel UHD Graphics 620",
+	"display":"14.0”, Full HD (1920 x 1080), IPS",
+	"storage":"2000GB SSD",
+	"ram":"16GB DDR4",
+	"weight":"1.63 kg (3.6 lbs)",
+	"os":"Windows 10 Pro",
+	"battery":"48Wh, Li-ion, 3-cell",
+	"dimensions":"336 x 238 x 20.0"
+},
+{
+	"slika":{
+			"src":"images/laptop/lenovo.jpg",
+			"alt":"lenovo"},
+	"ime":"Lenovo",
+	"cena":210,
+	"brojProdatih":27,
+	"cpu":"Intel Celeron N3350",
+	"gpu":"Intel HD Graphics 500 (Apollo Lake)",
+	"display":"15.6”, HD (1366 x 768), TN",
+	"storage":"1000GB HDD",
+	"ram":"4GB DDR3",
+	"weight":"2.2 kg (4.9 lbs)",
+	"os":"Windows 10 Home",
+	"battery":"35Wh, 2-cell",
+	"dimensions":"378 x 260 x 22.9 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/macbook1.jpg",
+			"alt":"macbook"},
+	"ime":"Macbook B",
+	"cena":1230,
+	"brojProdatih":70,
+	"cpu":"Intel Core i7-5650U",
+	"gpu":"Intel HD Graphics 6000",
+	"display":"13.3”, HD (1440 x 900), TN",
+	"storage":"512GB SSD",
+	"ram":"8GB DDR3",
+	"weight":"1.35 kg (3 lbs)",
+	"os":"Mac OS X",
+	"battery":"54Wh, Li-Poly",
+	"dimensions":"325 x 227 x 3 - 17 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/macbook2.jpg",
+			"alt":"macbook"},
+	"ime":"Macbook A",
+	"cena":830,
+	"brojProdatih":17,
+	"cpu":"Intel Core i5-5350U",
+	"gpu":"Intel HD Graphics 6000",
+	"display":"13.3”, HD (1440 x 900), TN",
+	"storage":"256GB SSD",
+	"ram":"8GB DDR3, 1600MHz",
+	"weight":"1.35 kg (3 lbs)",
+	"os":"Mac OS X",
+	"battery":"54Wh",
+	"dimensions":"325 x 227 x 3 - 17 mm"
+},
+{
+	"slika":{
+			"src":"images/laptop/tosiba.jpg",
+			"alt":"toshiba"},
+	"ime":"Toshiba",
+	"cena":130,
+	"brojProdatih":20,
+	"cpu":"AMD A6-5200",
+	"gpu":"AMD Radeon HD 8400",
+	"display":"15.6”, HD (1366 x 768), TN",
+	"storage":"750GB HDD",
+	"ram":"4GB DDR3, 1333 MHz",
+	"weight":"4GB DDR3, 1333 MHz",
+	"os":"Windows XP",
+	"battery":"3-cell",
+	"dimensions":"378 x 250 x 21 mm"
+}
+]

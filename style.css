@@ -1,0 +1,440 @@
+*
+{
+	margin:0 auto;
+	padding:0 auto;
+	box-sizing:border-box;
+}
+#header{
+	width:100%;
+	height:138px;
+	background-color:#fff;
+	
+}
+#logo{
+	float:left;
+	margin-left:10px;
+}
+#title{
+	width:500px;
+	float:left;
+	margin:15px;
+}
+body{
+	background-color:#fff;
+}
+.cleaner
+{
+	clear:both;
+}
+h1{
+	font-size:50px;
+	color:#000000;
+}
+h2, h3, p{
+	color:#000;
+}
+p{
+	font-size:16px;
+}
+a{
+	text-decoration:none;
+}
+
+#navigation{
+	background-color:#000;
+	width:100%;
+	height:50px;
+	
+}
+#navigation ul li{
+	display:inline-block;
+	width:150px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	
+}
+
+#navigation ul li a{
+	display:inherit;
+	width:150px;
+	height:50px;
+	background-color:#000;
+	color:#fff;
+}
+
+
+#navigation ul li a:hover{
+	background-color:#f7f9fc;
+	color:#000;
+}
+.aktivan{
+	background-color:#4185f2;
+	color:#000;
+}
+
+#regionSlider{
+	width:1300px;
+	height:300px;
+	
+}
+
+#pitanje{
+	width:300px;
+	height:500px;
+	float:left;
+	padding:10px;
+	background-color:#fff;
+}
+#content{
+	width:260px;
+	height:490px;
+	border-bottom:1px solid #383b3f;
+}
+#content a:first-of-type
+{
+	display:block;
+	width:260px;
+	height:60px;
+	background-color:#000;
+	color:#fff;
+	line-height:60px;
+	text-align:center;
+	font-size:28px;
+	margin-bottom:10px;
+}
+#content a:first-of-type:hover
+{
+	background-color:#f7f9fc;
+	color:#000;
+}
+#content a img
+{
+	opacity:0.7;
+	box-sizing:borer-box;
+}
+#content a img:hover
+{
+	opacity:1;
+	box-sizing:borer-box;
+}
+#content span
+{
+	position:relative;
+	z-index:1;
+	top:380px;
+	left:90px;
+	color:#fff;
+	font-size:26px;
+}
+#slider{
+	float:right;
+	width:1000px;
+	overflow: hidden;
+	height:500px;
+}
+#photos img {
+  display: none;
+}
+
+#photos .show {
+  display: inline;
+}
+.paket{
+	width:90%;
+	padding-top:10px;
+	border:none;
+}
+#sadrzaj > .paket ~ .paket {
+	border-top:1px solid #383b3f;
+}
+
+.naslov{
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+}
+.naslov h2{
+	color:#000;
+}
+.box{
+	width:25%;
+	margin-top:10px;
+	float:left;
+	border:none;
+	
+}
+.paket > .box ~ .box {
+	
+	border-left:1px solid #000;
+}
+.slika
+{
+	width:100%;
+	opacity:0.75;
+}
+.boxSadrzaj
+{
+	width:100%;
+	margin-top:10px;
+	text-align:center;
+}
+
+#footer{
+	width:100%;
+	height:200px;
+	background-color:#000;
+	text-align:center;
+	margin-top:10px;
+	
+}
+#footer p{
+	margin-top:20px;
+	color: white;
+}
+#menuFooter{
+	 list-style: none;
+}
+#menuFooter li {
+	display:inline-block;
+	width:100px;
+	height:30px;
+}
+#menuFooter li a{
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	width:100px;
+	height:30px;
+	text-decoration:underline;
+	margin-top:40px;
+	margin-left:10px;
+	font-size:18px;
+}
+#menuFooter li a:hover{
+	color:#383b3f;
+}
+
+#menu {
+  position: absolute;
+}
+
+#menu, #menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#menu li {
+  float: left;
+  background: #000;
+  color:#fff;
+}
+
+#menu a {
+  display: block;
+  padding: 5px;
+  width: 130px;
+  
+}
+
+#menu li ul {
+  position: absolute;
+  left: -999em;
+  width: 140px;
+}
+#menu li:hover ul, #menu li ul:hover {
+  left:auto;
+  color:fff;
+}
+
+#sortbox{
+	width:20%;
+	height:200px;
+	margin-top:25px;
+	float:left;
+	margin-left:1%;
+	padding:10px;
+	background-color:#f7f9fc;
+	text-align:center;
+}
+
+#kontejner{
+	width:75%;
+	height:inherit;
+	float:right;
+	margin-right:3%;
+	box-sizing: border-box;
+}
+.kutija{
+	width:100%;
+	margin-top:10px;
+	padding:10px;
+	background-color:white;
+	border-bottom:1px solid #000;
+}
+.kutijaSadrzaj{
+	display:block;
+	width:75%;
+	float:right;
+	padding:10px;
+	text-align:center;
+}
+
+.kutijaSadrzaj p{
+	float:left;
+}
+.kutijaSadrzaj h3{
+	display: block;
+	width:250px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	
+	background-color:#4185f2;
+	margin-top:5px;
+	border-radius:10px;
+	color:#fff;
+	float:right;
+}
+.kutijaSadrzaj table{
+	margin-top:10px;
+	float:right;
+	border-collapse: collapse;
+	
+
+}
+#sortbox table{
+	margin-top:10px;
+}
+#sortiranje{
+	width:100px;
+	height:30px;
+	
+}
+
+#cenaOd{
+	width:100px;
+	height:30px;
+}
+	
+#cenaDo{
+	width:100px;
+	height:30px;
+}
+#potvrdiFilter{
+	float:right;
+	margin-top:15px;
+	margin-right:25px;
+	width:60px;
+	height:25px;
+}
+
+#kontakt{
+	width:650px;
+	height:500px;
+	background-color:#f7f9fc;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+}
+
+#kontakt input[type=text]{
+	width:300px;
+	height:50px;
+	margin:5px;
+	padding:5px;
+}
+
+#kontakt input[type=reset]{
+	width:200px;
+	height:30px;
+	margin:5px;
+	padding:5px;
+}
+#kontakt input[type=button]{
+	width:200px;
+	height:30px;
+	margin:5px;
+	padding:5px;
+	float:right;
+}
+
+
+textarea{
+	width: 615px;
+    height: 150px;
+	margin:5px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#loseIme{
+	width:300px;
+	height:50px;
+	font-size:12px;
+	color:#ff0000;
+	visibility:hidden;
+	padding:3px;
+}
+
+#losePrezime{
+	width:300px;
+	height:50px;
+	padding:3px;
+	font-size:13px;
+	visibility:hidden;
+	color:#ff0000;
+}
+
+#losEmail{
+	width:300px;
+	height:50px;
+	font-size:13px;
+	visibility:hidden;
+	padding:3px;
+	color:#ff0000;
+}
+
+#losEmailPonovo{
+	width:300px;
+	height:50px;
+	font-size:13px;
+	visibility:hidden;
+	padding:3px;
+	color:#ff0000;
+}
+#info{
+	width:650px;
+	height:100px;
+	background-color:#f7f9fc;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:15px;
+	text-align:center;
+}
+
+#sadrzajAutor	
+{
+	width:1000px;
+	height:980px;
+	margin-top:10px;
+	padding:10px;
+	background-color:#f7f9fc;
+}
+#slika
+{
+	width:720px;
+	height:960px;
+	float:left;
+}	
+#Detalji
+{
+	width:250px;
+	height:300px;
+	float:right;
+	padding:10px;
+}
